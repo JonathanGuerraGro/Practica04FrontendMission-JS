@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-pokemon{
+    color: red;
+    
+}
+.contenedorheader{
+    position: relative;
+    background-color: red;
+    height: 130px;
+    width: 100%;
+    color: #000;
+    border-bottom: 25px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+.adornoball{
+    bottom: -60px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 25px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 50%;
+}
+
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    width: 150px;
+    padding: 10px;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: 15px;
+    color: #000;
+    text-align: center;
+    
+    padding: 10px;
+    margin: 0 auto;
+    
+    border: 3px solid rgb(160, 160, 160);
+}
+
+.poke-card::before {
+    content: '';
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+   
+  
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.separacion{
+    margin-top: 50px;
+    
+}
